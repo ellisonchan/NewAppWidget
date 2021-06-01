@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.androidplot:androidplot-core:1.5.7@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../gradle/gradle-7.0.2-all/gradle-7.0.2/caches/transforms-2/files-2.1/30a67338161e6dba33d7f3af0ab5e23a/jetified-androidplot-core-1.5.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../gradle/gradle-7.0.2-all/gradle-7.0.2/caches/transforms-2/files-2.1/30a67338161e6dba33d7f3af0ab5e23a/jetified-androidplot-core-1.5.7/res" />
+      <root url="file://$PROJECT_DIR$/../../gradle/gradle-7.0.2-all/gradle-7.0.2/caches/transforms-2/files-2.1/30a67338161e6dba33d7f3af0ab5e23a/jetified-androidplot-core-1.5.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../gradle/gradle-7.0.2-all/gradle-7.0.2/caches/modules-2/files-2.1/com.androidplot/androidplot-core/1.5.7/ee958607e0d08c274a2f4bf73ae530323575abc0/androidplot-core-1.5.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../gradle/gradle-7.0.2-all/gradle-7.0.2/caches/modules-2/files-2.1/com.androidplot/androidplot-core/1.5.7/6759e746c5c8d62d5daba9665b8b4cb34d9816e0/androidplot-core-1.5.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

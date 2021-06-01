@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="Todo List"
+    android:description="@string/app_widget_todo_list_description"
+    android:configure="com.example.appwidget.activity.WidgetConfigureActivity"
+    android:initialKeyguardLayout="@layout/widget_todo_list"
+    android:initialLayout="@layout/widget_todo_list"
+    android:maxResizeWidth="250dp"
+    android:maxResizeHeight="180dp"
+    android:minWidth="50dp"
+    android:minHeight="80dp"
+    android:minResizeWidth="50dp"
+    android:minResizeHeight="80dp"
+    android:previewImage="@drawable/app_widget_todolist__preview_2"
+    android:previewLayout="@layout/widget_todo_list_preview"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable|configuration_optional" />
+<!--    android:widgetFeatures="reconfigurable"-->

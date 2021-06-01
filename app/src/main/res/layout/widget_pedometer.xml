@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+<!--    android:background="@color/widget_background_color"-->
+
+    <include layout="@layout/widget_pedometer_info" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+        <!--        android:background="@android:color/holo_blue_bright"-->
+        <include layout="@layout/widget_pedometer_chart" />
+    </LinearLayout>
+</LinearLayout>

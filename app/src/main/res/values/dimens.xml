@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="widget_margin">0dp</dimen>
+    <dimen name="widget_pedo_chart_width">200dp</dimen>
+    <dimen name="widget_pedo_chart_height">130dp</dimen>
+    <dimen name="widget_pedo_chart_width_large">260dp</dimen>
+    <dimen name="widget_pedo_chart_height_large">160dp</dimen>
+    <dimen name="widget_element_min_length_large">60dp</dimen>
+    <dimen name="widget_element_min_length">48dp</dimen>
+    <dimen name="widget_element_min_length_small">32dp</dimen>
+    <dimen name="widget_element_min_length_tiny">16dp</dimen>
+
+    <dimen name="widget_outer_radius">16dp</dimen>
+    <dimen name="widget_inner_radius">8dp</dimen>
+    <dimen name="widget_inner_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="@dimen/widget_element_min_length"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/widget_element_min_length"
+            android:layout_height="@dimen/widget_element_min_length"
+            android:layout_marginStart="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:contentDescription="@string/add_button_todo_list_content_description"
+            android:src="@drawable/ic_hourglass"
+            android:tint="?android:attr/colorAccent" />
+
+        <TextView
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/count_down_list_title"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/count_down_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        Tools:itemCount="6"
+        Tools:listitem="@layout/item_count_down" />
+</LinearLayout>

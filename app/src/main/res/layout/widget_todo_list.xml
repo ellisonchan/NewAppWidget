@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+<!--    android:background="@color/widget_background_color"-->
+
+    <include layout="@layout/widget_todo_list_title_region" />
+
+    <CheckBox
+        android:id="@+id/checkbox_first"
+        style="@style/Widget.AppWidget.Checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_list_sample_1"
+        Tools:text="@string/todo_list_tool" />
+
+    <CheckBox
+        android:id="@+id/checkbox_second"
+        style="@style/Widget.AppWidget.Checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_list_sample_2"
+        Tools:text="@string/todo_list_tool" />
+
+    <CheckBox
+        android:id="@+id/checkbox_third"
+        style="@style/Widget.AppWidget.Checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_list_sample_3"
+        Tools:text="@string/todo_list_tool" />
+</LinearLayout>

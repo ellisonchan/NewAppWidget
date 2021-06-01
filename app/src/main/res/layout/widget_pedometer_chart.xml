@@ -1,0 +1,38 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="8dp"
+        android:orientation="vertical">
+
+        <!--        <com.github.mikephil.charting.charts.BarChart-->
+        <!--            android:id="@+id/bar_chart"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content">-->
+        <!--        </com.github.mikephil.charting.charts.BarChart>-->
+
+<!--        <ImageView-->
+        <ImageView
+            android:id="@+id/bar_chart"
+            android:layout_width="@dimen/widget_pedo_chart_width"
+            android:layout_height="@dimen/widget_pedo_chart_height"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/widget_pedometer_chart_tools_3">
+<!--            android:src="@drawable/widget_pedometer_chart_tools_2"-->
+<!--            tools:src="@drawable/widget_pedometer_chart_tools">-->
+        </ImageView>
+
+        <TextView
+            android:id="@+id/pedometer_date"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pedometer_date"
+            android:textColor="?android:attr/textColorSecondary" />
+
+    </LinearLayout>
+</merge>

@@ -1,0 +1,52 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/widget_element_min_length"
+            android:layout_height="@dimen/widget_element_min_length"
+            android:layout_marginVertical="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_gravity="start"
+            android:clickable="true"
+            android:contentDescription="@string/pedometer_icon_content_description"
+            android:src="@drawable/ic_walk" />
+<!--        android:tint="?android:attr/colorAccent"-->
+
+        <TextView
+            android:id="@+id/pedometer_count"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="@string/pedometer_count"
+            android:textColor="?android:attr/textColorPrimary"/>
+
+        <TextView
+            android:id="@+id/pedometer_km"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/pedometer_km"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <TextView
+            android:id="@+id/pedometer_floor"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/pedometer_floor"
+            android:textColor="?android:attr/textColorSecondary"/>
+    </LinearLayout>
+</merge>

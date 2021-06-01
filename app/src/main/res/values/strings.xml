@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">New AppWidget</string>
+
+    <string name="app_widget_pedometer_description">Pedometer info by Tech Merger.</string>
+    <string name="app_widget_todo_list_description">Todo list by Tech Merger.</string>
+    <string name="app_widget_state_list_description">State list by Tech Merger.</string>
+    <string name="app_widget_count_down_list_description">Count down list by Tech Merger.</string>
+
+    <string name="state_list_title">Task</string>
+
+    <string name="todo_list_title">My todo list</string>
+    <string name="todo_list_date">Today</string>
+
+    <string name="todo_list_android">Android 12</string>
+    <string name="todo_list_compose">Jetpack Compose</string>
+    <string name="todo_list_kotlin">Kotlin Coroutines</string>
+
+    <string name="todo_list_tool">Study</string>
+    <string name="switch_list_tool">Quiet mode</string>
+    <string name="radio_list_tool_1">Fuchsia</string>
+    <string name="radio_list_tool_2">HarmonyOS</string>
+    <string name="todo_list_sample_1">Eat</string>
+    <string name="todo_list_sample_2">Sleep</string>
+    <string name="todo_list_sample_3">Code</string>
+
+    <string name="pedometer_count">15,520</string>
+    <string name="pedometer_km">8.9公里</string>
+    <string name="pedometer_floor">9层</string>
+    <string name="pedometer_date">2021年5月20日</string>
+
+    <string name="add_button_todo_list_content_description">Add button for todo list</string>
+    <string name="pedometer_icon_content_description">Pedometer icon</string>
+
+    <string name="count_down_list_title">倒计事件</string>
+    <string name="count_down_list_item_title_sample">距离下班还有</string>
+    <string name="count_down_list_item_time_sample">3</string>
+    <string name="count_down_list_item_unit_sample">Hour</string>
+
+    <array name="count_down_list_titles">
+        <item>@array/count_down_list_1</item>
+        <item>@array/count_down_list_2</item>
+        <item>@array/count_down_list_3</item>
+        <item>@array/count_down_list_4</item>
+    </array>
+
+    <string-array name="count_down_list_1">
+        <item>喝下一杯水</item>
+        <item>2</item>
+        <item>Hours</item>
+    </string-array>
+
+    <string-array name="count_down_list_2">
+        <item>Compose发布</item>
+        <item>30</item>
+        <item>Days</item>
+    </string-array>
+
+    <string-array name="count_down_list_3">
+        <item>Android 12发布</item>
+        <item>3</item>
+        <item>Months</item>
+    </string-array>
+
+    <string-array name="count_down_list_4">
+        <item>距离35岁</item>
+        <item>5</item>
+        <item>Years</item>
+    </string-array>
+
+    <!--    <string-array name="count_down_list_titles">-->
+    <!--        <item>@array/count_down_list_1</item>-->
+    <!--        <item>@array/count_down_list_2</item>-->
+    <!--        <item>@array/count_down_list_3</item>-->
+    <!--        <item>@array/count_down_list_4</item>-->
+    <!--    </string-array>-->
+
+    <!--    <item>喝下一杯水</item>-->
+    <!--    <item>距离国庆节</item>-->
+    <!--    <item>春节还有</item>-->
+    <!--    <item>Compose发布</item>-->
+    <!--    <item>Android 12发布</item>-->
+</resources>

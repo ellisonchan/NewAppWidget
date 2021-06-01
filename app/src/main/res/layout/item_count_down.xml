@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/widget_element_min_length"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textStyle="bold"
+        Tools:text="@string/count_down_list_item_title_sample" />
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/colorAccent"
+        android:textSize="22sp"
+        android:layout_marginEnd="32dp"
+        android:textStyle="italic|bold"
+        Tools:text="@string/count_down_list_item_time_sample" />
+
+    <TextView
+        android:id="@+id/item_time_unit"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/tertiary_text_light"
+        android:gravity="start"
+        Tools:text="@string/count_down_list_item_unit_sample" />
+</LinearLayout>
